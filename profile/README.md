@@ -1,7 +1,7 @@
 # **OpenDonationAssistant** - an open-source platform for streamers
 Website: [https://oda.digital/](https://oda.digital/)
 
-##Components:
+## Components:
 
 ### Frontend:
 - oda-website - website for OpenDonationAssistant. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-website/)
