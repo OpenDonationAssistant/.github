@@ -1,5 +1,5 @@
 # Open-source platform for streamer tools
-[![Website](https://img.shields.io/badge/Website-https%3A%2F%2Foda.digital%2F-BEC8F8?style=for-the-badge)](https://oda.digital/) [![Getting Started](https://img.shields.io/badge/Getting%20Started-2ea44f?style=for-the-badge)](https://opendonationassistant.mintlify.app/)
+[![Website](https://img.shields.io/badge/https%3A%2F%2Foda.digital%2F-BEC8F8?style=for-the-badge)](https://oda.digital/) [![Getting Started](https://img.shields.io/badge/Getting%20Started-2ea44f?style=for-the-badge)](https://opendonationassistant.mintlify.app/)
 
 ## Components
 
