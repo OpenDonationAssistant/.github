@@ -1,14 +1,14 @@
 # Open-source platform for streamer tools
-[![Website](https://img.shields.io/badge/Website-8A2BE2)](https://oda.digital/) [![Getting Started](https://img.shields.io/badge/Getting%20Started-8A2BE2)](https://opendonationassistant.mintlify.app/)
+[![Website](https://img.shields.io/badge/Website-https%3A%2F%2Foda.digital%2F-8A2BE2?style=for-the-badge)](https://oda.digital/) [![Getting Started](https://img.shields.io/badge/Getting%20Started-8A2BE2?style=for-the-badge)](https://opendonationassistant.mintlify.app/)
 
-## Components:
+## Components
 
-### Frontend:
-- **oda-website** - website for OpenDonationAssistant. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-website/)
+### Frontend
 - **oda-widget-page** - all widgets and dashboard. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-widget-page/)
 - **oda-payment-page** - donation page. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-payment-page/)
+- **oda-website** - website for OpenDonationAssistant. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-website/)
 
-### Backend:
+### Backend
 - **oda-config-service** - service with streamer's configs for donation-page. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-config-service/)
 - **oda-history-service** - service which handles events history - donations, subscriptions, etc. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-history-service/)
 - **oda-payment-service** - service which processes donations. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-payment-service/)
@@ -23,8 +23,9 @@
 - **oda-recipient-service** - service which handles user authorization. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-files-service/)
 - **oda-automation-service** - service which stores and processes automation rules. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-automation-service/)
 
-### Other:
+### Other
 - **oda-libraries** - shared libs for java services. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-libraries/)
 
-### Vibe-coding
+## Vibe-coding
+
 Code rules, usable by ai agents: [gist](https://gist.github.com/stCarolas/aa0ba93d72b6e7c138ca6cef81d529b1)
