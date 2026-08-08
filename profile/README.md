@@ -22,6 +22,8 @@
 - **oda-files-service** - service which handles user-uploaded files. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-files-service/)
 - **oda-recipient-service** - service which handles user authorization. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-files-service/)
 - **oda-automation-service** - service which stores and processes automation rules. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-automation-service/)
+- **oda-tribute-service** - service for handling Tribute donations, subscriptions and purchases. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-tribute-service)
+- **oda-kick-service** - service for handling Kick integration. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-kick-service)
 
 ### Other
 - **oda-libraries** - shared libs for java services. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-libraries/)
