@@ -11,15 +11,16 @@
 ### Backend
 - **oda-config-service** - service with streamer's configs for donation-page. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-config-service/)
 - **oda-history-service** - service which handles events history - donations, subscriptions, etc. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-history-service/)
+- **oda-indexes-service** - service which aggregates history events into contribution indexes (top lists). [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-indexes-service/)
 - **oda-payment-service** - service which processes donations. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-payment-service/)
 - **oda-payment-processing** - service which handles event-driven payments processing, like Reel and Donaton. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-payment-processing/)
 - **oda-files-service** - service which handles user-uploaded files. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-files-service/)
 - **oda-font-service** - service which stores and updates links to fonts. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-font-service/)
-- **oda-media-service** - service which handles media requests by donaters, chatters and streamers. Also it stores playlists and some other metadata. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-media-service)
+- **oda-media-service** - service which handles media requests by donaters, chatters and streamers (YouTube/VK video). Also it stores playlists and some other metadata. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-media-service)
 - **oda-twitch-service** - service which handles twitch related stuff. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-twitch-service/)
 - **oda-donationgoal-service** - service which handles donation goals. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-donationgoal-service/)
 - **oda-news-service** - service which stores news to show on website and dashboard. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-news-service/)
-- **oda-widgets-service** - service which stores widget configurations. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-widgets-service/)
+- **oda-widgets-service** - service which stores widget configurations and showcase templates. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-widgets-service/)
 - **oda-actions-service** - service which stores and handlers user-defined actions. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-actions-service/)
 - **oda-recipient-service** - service which handles user authorization. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-recipient-service/)
 - **oda-max-service** - service for handling Max integration. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-max-service/)
@@ -27,13 +28,15 @@
 - **oda-automation-service** - service which stores and processes automation rules. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-automation-service/)
 - **oda-tribute-service** - service for handling Tribute donations, subscriptions and purchases. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-tribute-service)
 - **oda-kick-service** - service for handling Kick integration. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-kick-service)
-- **oda-streamelements-service** - service for handling StreamElements emulation. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-streamelements-service)
-- **oda-subscriptions-service** - service for handling 3d party integrations/subscriptions for user apps. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-subscriptions-service)
+- **oda-streamelements-service** - service which converts ODA widgets into StreamElements overlays. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-streamelements-service)
+- **oda-subscriptions-service** - service which manages OIDC applications (Keycloak) and subscriptions for third-party integrations. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-subscriptions-service)
 - **oda-paywall-service** - service for handling paywalls. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-paywall-service/)
 - **oda-mcp-service** - service which exposes OpenDonationAssistant as a Model Context Protocol (MCP) server for AI agents. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-mcp-service/)
 
 ### Other
 - **oda-libraries** - shared libs for java services. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/oda-libraries/)
+- **docs** - documentation site for OpenDonationAssistant (Mintlify). [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/docs/)
+- **integration-tests** - HTTP-based integration tests for the ODA API. [![Wiki](https://img.shields.io/badge/Wiki-DeepWiki-2ea44f?style=flat)](https://deepwiki.com/OpenDonationAssistant/integration-tests/)
 
 ## Vibe-coding
 
